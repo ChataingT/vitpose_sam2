@@ -11,13 +11,14 @@ To get the bounding box.
 ## Installation
 Install vitpose and modify this :
 
-```
 in structures/utils.py l.128 add             
 
+```
+
 keypoints_label=instances.keypoints_label[i].tolist()
-
+```
 so we get :
-
+```
 def split_instances(instances: InstanceData) -> List[InstanceData]:
     """Convert instances into a list where each element is a dict that contains
     information about one instance."""
