@@ -1,2 +1,5 @@
 
-olg/*
+old/
+.ipynb_checkpoints/
+.virtual_documents/
+run_*
