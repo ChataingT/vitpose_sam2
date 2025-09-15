@@ -17,4 +17,5 @@ pytest
 pytest-runner
 xdoctest>=0.10.0
 yapf
+decord
 requests
