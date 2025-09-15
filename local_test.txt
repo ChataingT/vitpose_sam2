@@ -1,0 +1,10 @@
+python "/home/share/schaer2/idtracking/vitpose_sam2/mmpose_inference.py" \
+    "/home/share/schaer2/idtracking/vitpose_sam2/mmpose/configs/body_2d_keypoint/rtmpose/coco/rtmpose-l_8xb256-420e_aic-coco-384x288.py" \
+    "/home/share/schaer2/idtracking/pose_model_config/rtmpose-l_simcc-aic-coco_pt-aic-coco_420e-384x288-97d6cb0f_20230228.pth" \
+    --input "/home/share/schaer2/idtracking/test/bedroom.mp4" \
+    --bboxes "/home/share/schaer2/idtracking/test/bedroom_bbox_0-200.json" \
+    --output-root "/home/share/schaer2/idtracking/test" \
+    --device "cuda" \
+    --skeleton-style "openpose" \
+    --save-predictions \
+    --verbose
