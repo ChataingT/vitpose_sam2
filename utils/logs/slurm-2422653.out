@@ -1,0 +1,375 @@
+/home/share/schaer2/idtracking_keypoint/utils
+GPU 0: NVIDIA GeForce RTX 2080 Ti (UUID: GPU-03614a7f-dd41-58a7-5ac6-1df580ca40cb)
+[I 2025-09-08 11:56:41.996 ServerApp] Extension package jupyter_lsp took 0.6456s to import
+[I 2025-09-08 11:56:42.172 ServerApp] Extension package jupyter_server_terminals took 0.1749s to import
+[I 2025-09-08 11:56:43.881 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-09-08 11:56:43.895 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-09-08 11:56:43.910 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-09-08 11:56:43.924 ServerApp] notebook | extension was successfully linked.
+[I 2025-09-08 11:56:50.167 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-09-08 11:56:50.493 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-09-08 11:56:50.497 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-09-08 11:56:50.499 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-09-08 11:56:50.523 LabApp] JupyterLab extension loaded from /home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyterlab
+[I 2025-09-08 11:56:50.523 LabApp] JupyterLab application directory is /home/share/schaer2/idtracking_keypoint/myenv/share/jupyter/lab
+[I 2025-09-08 11:56:50.525 LabApp] Extension Manager is 'pypi'.
+[I 2025-09-08 11:56:51.046 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-09-08 11:56:51.067 ServerApp] notebook | extension was successfully loaded.
+[I 2025-09-08 11:56:51.068 ServerApp] Serving notebooks from local directory: /home/share/schaer2/idtracking_keypoint/utils
+[I 2025-09-08 11:56:51.068 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-09-08 11:56:51.069 ServerApp] http://gpu014.baobab:8900/tree?token=045aabd40408ddb5592fa6e02e299932448cc203e8f3aa5e
+[I 2025-09-08 11:56:51.069 ServerApp]     http://127.0.0.1:8900/tree?token=045aabd40408ddb5592fa6e02e299932448cc203e8f3aa5e
+[I 2025-09-08 11:56:51.070 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-09-08 11:56:51.089 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/users/c/chataint/.local/share/jupyter/runtime/jpserver-1218313-open.html
+    Or copy and paste one of these URLs:
+        http://gpu014.baobab:8900/tree?token=045aabd40408ddb5592fa6e02e299932448cc203e8f3aa5e
+        http://127.0.0.1:8900/tree?token=045aabd40408ddb5592fa6e02e299932448cc203e8f3aa5e
+[I 2025-09-08 11:56:51.271 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-09-08 11:58:02.717 ServerApp] 302 GET / (@192.168.100.12) 0.43ms
+[I 2025-09-08 11:58:02.719 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.40ms
+[I 2025-09-08 11:58:09.213 ServerApp] 302 GET / (@192.168.100.12) 0.26ms
+[I 2025-09-08 11:58:09.215 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.29ms
+[I 2025-09-08 11:58:11.821 ServerApp] 302 GET / (@192.168.100.12) 0.25ms
+[I 2025-09-08 11:58:11.823 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.28ms
+[I 2025-09-08 11:58:12.036 ServerApp] Kernel started: dfbd9b6b-7a90-44ae-bc3d-82ef383f069f
+[I 2025-09-08 11:58:12.669 ServerApp] 302 GET / (@192.168.100.12) 0.21ms
+[I 2025-09-08 11:58:12.718 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.26ms
+[W 2025-09-08 11:58:12.762 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.808 ServerApp] 403 GET /api/kernelspecs?1757325492761 (@192.168.100.12) 46.64ms referer=None
+[W 2025-09-08 11:58:12.810 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.811 ServerApp] 403 GET /api/kernels?1757325492761 (@192.168.100.12) 1.86ms referer=None
+[W 2025-09-08 11:58:12.811 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.813 ServerApp] 403 GET /api/kernels?1757325492773 (@192.168.100.12) 3.38ms referer=None
+[W 2025-09-08 11:58:12.813 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.814 ServerApp] 403 GET /api/sessions?1757325492773 (@192.168.100.12) 4.64ms referer=None
+[W 2025-09-08 11:58:12.815 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.816 ServerApp] 403 GET /api/kernelspecs?1757325492810 (@192.168.100.12) 1.46ms referer=None
+[I 2025-09-08 11:58:12.817 ServerApp] 302 GET / (@192.168.100.12) 0.21ms
+[I 2025-09-08 11:58:12.819 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.26ms
+[W 2025-09-08 11:58:12.823 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.824 ServerApp] 403 GET /api/kernelspecs?1757325492822 (@192.168.100.12) 1.33ms referer=None
+[W 2025-09-08 11:58:12.826 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.827 ServerApp] 403 GET /api/kernels?1757325492822 (@192.168.100.12) 1.87ms referer=None
+[W 2025-09-08 11:58:12.827 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.829 ServerApp] 403 GET /api/kernels?1757325492823 (@192.168.100.12) 3.25ms referer=None
+[W 2025-09-08 11:58:12.829 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.830 ServerApp] 403 GET /api/sessions?1757325492824 (@192.168.100.12) 4.39ms referer=None
+[W 2025-09-08 11:58:12.831 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:12.832 ServerApp] 403 GET /api/kernelspecs?1757325492826 (@192.168.100.12) 1.38ms referer=None
+[I 2025-09-08 11:58:15.447 ServerApp] Connecting to kernel dfbd9b6b-7a90-44ae-bc3d-82ef383f069f.
+[I 2025-09-08 11:58:16.022 ServerApp] 302 GET / (@192.168.100.12) 0.59ms
+[I 2025-09-08 11:58:16.077 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.25ms
+[W 2025-09-08 11:58:16.137 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.138 ServerApp] 403 GET /api/kernelspecs?1757325496135 (@192.168.100.12) 1.53ms referer=None
+[W 2025-09-08 11:58:16.143 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.144 ServerApp] 403 GET /api/kernels?1757325496135 (@192.168.100.12) 1.34ms referer=None
+[W 2025-09-08 11:58:16.145 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.146 ServerApp] 403 GET /api/kernels?1757325496138 (@192.168.100.12) 1.41ms referer=None
+[W 2025-09-08 11:58:16.147 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.148 ServerApp] 403 GET /api/kernelspecs?1757325496141 (@192.168.100.12) 1.37ms referer=None
+[W 2025-09-08 11:58:16.148 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.149 ServerApp] 403 GET /api/sessions?1757325496138 (@192.168.100.12) 1.43ms referer=None
+[I 2025-09-08 11:58:16.160 ServerApp] 302 GET / (@192.168.100.12) 0.19ms
+[I 2025-09-08 11:58:16.162 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.26ms
+[W 2025-09-08 11:58:16.167 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.169 ServerApp] 403 GET /api/kernelspecs?1757325496166 (@192.168.100.12) 1.29ms referer=None
+[W 2025-09-08 11:58:16.170 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.171 ServerApp] 403 GET /api/kernels?1757325496167 (@192.168.100.12) 1.54ms referer=None
+[W 2025-09-08 11:58:16.171 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.172 ServerApp] 403 GET /api/sessions?1757325496168 (@192.168.100.12) 2.97ms referer=None
+[W 2025-09-08 11:58:16.173 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.174 ServerApp] 403 GET /api/kernels?1757325496166 (@192.168.100.12) 1.37ms referer=None
+[W 2025-09-08 11:58:16.175 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.176 ServerApp] 403 GET /api/kernelspecs?1757325496170 (@192.168.100.12) 1.32ms referer=None
+[W 2025-09-08 11:58:16.180 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.182 ServerApp] 403 GET /api/kernelspecs?1757325496174 (@192.168.100.12) 1.35ms referer=None
+[W 2025-09-08 11:58:16.182 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 11:58:16.183 ServerApp] 403 GET /api/sessions?1757325496174 (@192.168.100.12) 1.30ms referer=None
+[W 2025-09-08 11:58:25.635 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 22.46ms referer=None
+[I 2025-09-08 11:58:25.636 ServerApp] 302 GET / (@192.168.100.12) 0.64ms
+[I 2025-09-08 11:58:25.641 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.28ms
+[W 2025-09-08 11:58:25.647 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.55ms referer=None
+[I 2025-09-08 15:15:20.966 ServerApp] 302 GET / (@192.168.100.12) 0.20ms
+[I 2025-09-08 15:15:21.039 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.27ms
+[W 2025-09-08 15:15:21.095 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.097 ServerApp] 403 GET /api/kernelspecs?1757337321093 (@192.168.100.12) 2.05ms referer=None
+[W 2025-09-08 15:15:21.097 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.098 ServerApp] 403 GET /api/kernels?1757337321094 (@192.168.100.12) 1.34ms referer=None
+[W 2025-09-08 15:15:21.099 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.100 ServerApp] 403 GET /api/sessions?1757337321095 (@192.168.100.12) 1.39ms referer=None
+[W 2025-09-08 15:15:21.101 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.102 ServerApp] 403 GET /api/kernels?1757337321095 (@192.168.100.12) 1.32ms referer=None
+[W 2025-09-08 15:15:21.104 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.105 ServerApp] 403 GET /api/kernelspecs?1757337321098 (@192.168.100.12) 1.24ms referer=None
+[I 2025-09-08 15:15:21.106 ServerApp] 302 GET / (@192.168.100.12) 0.20ms
+[I 2025-09-08 15:15:21.118 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.26ms
+[W 2025-09-08 15:15:21.123 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.124 ServerApp] 403 GET /api/kernelspecs?1757337321122 (@192.168.100.12) 1.30ms referer=None
+[W 2025-09-08 15:15:21.125 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.126 ServerApp] 403 GET /api/kernels?1757337321122 (@192.168.100.12) 1.82ms referer=None
+[W 2025-09-08 15:15:21.127 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.128 ServerApp] 403 GET /api/kernels?1757337321123 (@192.168.100.12) 3.15ms referer=None
+[W 2025-09-08 15:15:21.128 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.129 ServerApp] 403 GET /api/sessions?1757337321123 (@192.168.100.12) 4.41ms referer=None
+[W 2025-09-08 15:15:21.130 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyter_server/base/handlers.py", line 784, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-09-08 15:15:21.131 ServerApp] 403 GET /api/kernelspecs?1757337321125 (@192.168.100.12) 1.38ms referer=None
+slurmstepd: error: *** JOB 2422653 ON gpu014 CANCELLED AT 2025-09-08T23:56:41 DUE TO TIME LIMIT ***
