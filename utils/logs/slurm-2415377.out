@@ -1,0 +1,117 @@
+/home/share/schaer2/idtracking_keypoint/utils
+GPU 0: NVIDIA GeForce RTX 2080 Ti (UUID: GPU-80cd319e-7508-930c-5dbb-920457c56d08)
+[I 2025-09-05 14:13:28.824 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-09-05 14:13:28.838 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-09-05 14:13:28.853 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-09-05 14:13:28.867 ServerApp] notebook | extension was successfully linked.
+[I 2025-09-05 14:13:29.783 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-09-05 14:13:29.887 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-09-05 14:13:29.892 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-09-05 14:13:29.894 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-09-05 14:13:29.917 LabApp] JupyterLab extension loaded from /home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyterlab
+[I 2025-09-05 14:13:29.917 LabApp] JupyterLab application directory is /home/share/schaer2/idtracking_keypoint/myenv/share/jupyter/lab
+[I 2025-09-05 14:13:29.920 LabApp] Extension Manager is 'pypi'.
+[I 2025-09-05 14:13:30.043 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-09-05 14:13:30.065 ServerApp] notebook | extension was successfully loaded.
+[I 2025-09-05 14:13:30.066 ServerApp] Serving notebooks from local directory: /home/share/schaer2/idtracking_keypoint/utils
+[I 2025-09-05 14:13:30.066 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-09-05 14:13:30.067 ServerApp] http://gpu014.baobab:8900/tree?token=c440745d6ed950bc9f06949317449f09021a5560c7ae16f0
+[I 2025-09-05 14:13:30.067 ServerApp]     http://127.0.0.1:8900/tree?token=c440745d6ed950bc9f06949317449f09021a5560c7ae16f0
+[I 2025-09-05 14:13:30.067 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-09-05 14:13:30.075 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/users/c/chataint/.local/share/jupyter/runtime/jpserver-2067664-open.html
+    Or copy and paste one of these URLs:
+        http://gpu014.baobab:8900/tree?token=c440745d6ed950bc9f06949317449f09021a5560c7ae16f0
+        http://127.0.0.1:8900/tree?token=c440745d6ed950bc9f06949317449f09021a5560c7ae16f0
+[I 2025-09-05 14:13:30.221 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-09-05 14:13:54.384 ServerApp] 302 GET / (@192.168.100.12) 0.45ms
+[I 2025-09-05 14:13:54.386 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.42ms
+[I 2025-09-05 14:14:05.452 ServerApp] 302 GET / (@192.168.100.12) 0.47ms
+[I 2025-09-05 14:14:05.454 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.37ms
+[I 2025-09-05 14:14:08.929 ServerApp] 302 GET / (@192.168.100.12) 0.52ms
+[I 2025-09-05 14:14:08.930 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.30ms
+[I 2025-09-05 14:14:09.248 ServerApp] Kernel started: ef2304c3-12ed-4686-9961-f069d8af4cf1
+[I 2025-09-05 14:14:14.743 ServerApp] Connecting to kernel ef2304c3-12ed-4686-9961-f069d8af4cf1.
+[I 2025-09-05 14:23:03.076 ServerApp] 302 GET / (@192.168.100.12) 0.40ms
+[I 2025-09-05 14:23:03.078 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.39ms
+[I 2025-09-05 14:23:03.140 ServerApp] Kernel started: 542a7a94-9626-4bd3-9c5d-db09586c272e
+[I 2025-09-05 14:23:05.596 ServerApp] Connecting to kernel 542a7a94-9626-4bd3-9c5d-db09586c272e.
+[W 2025-09-05 14:23:07.895 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 22.30ms referer=None
+[I 2025-09-05 14:23:07.896 ServerApp] 302 GET / (@192.168.100.12) 0.25ms
+[I 2025-09-05 14:23:07.898 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.31ms
+[W 2025-09-05 14:23:07.904 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.63ms referer=None
+[I 2025-09-05 14:30:21.635 ServerApp] 302 GET / (@192.168.100.12) 0.31ms
+[I 2025-09-05 14:30:21.636 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.33ms
+[I 2025-09-05 14:30:21.696 ServerApp] Kernel started: 92b9cda6-789d-4484-ad12-b396a0ec2bd2
+[I 2025-09-05 14:30:23.574 ServerApp] Connecting to kernel 92b9cda6-789d-4484-ad12-b396a0ec2bd2.
+[W 2025-09-05 14:30:25.282 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 2.20ms referer=None
+[I 2025-09-05 14:30:25.282 ServerApp] 302 GET / (@192.168.100.12) 2.42ms
+[I 2025-09-05 14:30:25.284 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.32ms
+[W 2025-09-05 14:30:25.290 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.57ms referer=None
+[I 2025-09-05 14:36:08.204 ServerApp] Kernel restarted: 92b9cda6-789d-4484-ad12-b396a0ec2bd2
+[I 2025-09-05 14:36:08.214 ServerApp] Starting buffering for 92b9cda6-789d-4484-ad12-b396a0ec2bd2:dbb60dcd-2a04-4c02-ac5f-4dd11b60f7f4
+[I 2025-09-05 14:36:08.221 ServerApp] Connecting to kernel 92b9cda6-789d-4484-ad12-b396a0ec2bd2.
+[I 2025-09-05 14:36:08.221 ServerApp] Restoring connection for 92b9cda6-789d-4484-ad12-b396a0ec2bd2:dbb60dcd-2a04-4c02-ac5f-4dd11b60f7f4
+[I 2025-09-05 14:37:51.776 ServerApp] Kernel restarted: 92b9cda6-789d-4484-ad12-b396a0ec2bd2
+[I 2025-09-05 14:37:51.779 ServerApp] Starting buffering for 92b9cda6-789d-4484-ad12-b396a0ec2bd2:dbb60dcd-2a04-4c02-ac5f-4dd11b60f7f4
+[I 2025-09-05 14:37:51.784 ServerApp] Connecting to kernel 92b9cda6-789d-4484-ad12-b396a0ec2bd2.
+[I 2025-09-05 14:37:51.784 ServerApp] Restoring connection for 92b9cda6-789d-4484-ad12-b396a0ec2bd2:dbb60dcd-2a04-4c02-ac5f-4dd11b60f7f4
+[I 2025-09-05 14:44:53.889 ServerApp] 302 GET / (@192.168.100.12) 0.24ms
+[I 2025-09-05 14:44:53.898 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.32ms
+[I 2025-09-05 14:44:53.960 ServerApp] Kernel started: 6ecb5f0e-6ab4-4903-9a2d-0f21f4fe4181
+[I 2025-09-05 14:44:55.783 ServerApp] Connecting to kernel 6ecb5f0e-6ab4-4903-9a2d-0f21f4fe4181.
+[W 2025-09-05 14:44:57.207 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.97ms referer=None
+[I 2025-09-05 14:44:57.208 ServerApp] 302 GET / (@192.168.100.12) 0.20ms
+[I 2025-09-05 14:44:57.215 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.31ms
+[W 2025-09-05 14:44:57.225 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.61ms referer=None
+[I 2025-09-05 14:44:57.807 ServerApp] Kernel interrupted: 6ecb5f0e-6ab4-4903-9a2d-0f21f4fe4181
+[I 2025-09-05 14:49:16.490 ServerApp] Starting buffering for ef2304c3-12ed-4686-9961-f069d8af4cf1:01859702-970e-4b52-9762-a674c6ed7643
+[I 2025-09-05 14:49:16.493 ServerApp] Starting buffering for 542a7a94-9626-4bd3-9c5d-db09586c272e:d96cf252-180e-4c8e-a43e-29f3e95003e7
+[I 2025-09-05 14:49:16.495 ServerApp] Starting buffering for 92b9cda6-789d-4484-ad12-b396a0ec2bd2:dbb60dcd-2a04-4c02-ac5f-4dd11b60f7f4
+[I 2025-09-05 14:49:16.498 ServerApp] Starting buffering for 6ecb5f0e-6ab4-4903-9a2d-0f21f4fe4181:2cfe5cb3-8a4a-4969-8988-69ac783eab52
+[I 2025-09-05 15:08:42.118 ServerApp] 302 GET / (@192.168.100.12) 0.37ms
+[I 2025-09-05 15:08:43.014 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.47ms
+[I 2025-09-05 15:08:48.795 ServerApp] 302 GET / (@192.168.100.12) 0.21ms
+[I 2025-09-05 15:08:48.821 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.26ms
+[I 2025-09-05 15:08:49.492 ServerApp] Connecting to kernel 92b9cda6-789d-4484-ad12-b396a0ec2bd2.
+[W 2025-09-05 15:08:50.719 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 2.14ms referer=None
+[I 2025-09-05 15:08:50.719 ServerApp] 302 GET / (@192.168.100.12) 0.22ms
+[I 2025-09-05 15:08:51.324 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.27ms
+[W 2025-09-05 15:08:51.607 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.83ms referer=None
+[I 2025-09-05 15:15:38.718 ServerApp] 302 GET / (@192.168.100.12) 0.26ms
+[I 2025-09-05 15:15:38.720 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.32ms
+[I 2025-09-05 15:15:38.753 ServerApp] Connecting to kernel ef2304c3-12ed-4686-9961-f069d8af4cf1.
+[W 2025-09-05 15:15:39.401 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.77ms referer=None
+[I 2025-09-05 15:15:39.402 ServerApp] 302 GET / (@192.168.100.12) 1.95ms
+[I 2025-09-05 15:15:39.404 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.29ms
+[W 2025-09-05 15:15:39.409 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.44ms referer=None
+[I 2025-09-05 15:30:16.351 ServerApp] 302 GET / (@192.168.100.12) 0.36ms
+[I 2025-09-05 15:30:16.359 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.34ms
+[I 2025-09-05 15:30:16.399 ServerApp] Connecting to kernel 542a7a94-9626-4bd3-9c5d-db09586c272e.
+[W 2025-09-05 15:30:17.060 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 2.49ms referer=None
+[I 2025-09-05 15:30:17.061 ServerApp] 302 GET / (@192.168.100.12) 2.69ms
+[I 2025-09-05 15:30:17.063 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.30ms
+[W 2025-09-05 15:30:17.069 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.82ms referer=None
+[I 2025-09-05 15:31:09.851 ServerApp] 302 GET / (@192.168.100.12) 0.36ms
+[I 2025-09-05 15:31:09.854 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.31ms
+[I 2025-09-05 15:31:09.897 ServerApp] Connecting to kernel 92b9cda6-789d-4484-ad12-b396a0ec2bd2.
+[W 2025-09-05 15:31:10.670 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 2.47ms referer=None
+[I 2025-09-05 15:31:10.670 ServerApp] 302 GET / (@192.168.100.12) 2.62ms
+[I 2025-09-05 15:31:10.686 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.33ms
+[W 2025-09-05 15:31:10.692 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.90ms referer=None
+[I 2025-09-05 15:31:14.259 ServerApp] 302 GET / (@192.168.100.12) 0.37ms
+[I 2025-09-05 15:31:14.264 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.31ms
+[I 2025-09-05 15:31:14.319 ServerApp] Connecting to kernel 6ecb5f0e-6ab4-4903-9a2d-0f21f4fe4181.
+[W 2025-09-05 15:31:14.967 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 2.02ms referer=None
+[I 2025-09-05 15:31:14.968 ServerApp] 302 GET / (@192.168.100.12) 0.24ms
+[I 2025-09-05 15:31:14.969 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.30ms
+[W 2025-09-05 15:31:14.975 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@192.168.100.12) 1.88ms referer=None
+[I 2025-09-05 15:48:11.789 ServerApp] Starting buffering for ef2304c3-12ed-4686-9961-f069d8af4cf1:df3d2006-4bd2-4350-8dc3-0cf20fb79bfc
+[I 2025-09-05 15:48:11.794 ServerApp] Starting buffering for 542a7a94-9626-4bd3-9c5d-db09586c272e:1e05df8a-dda1-4fc9-a9d1-4db5059dad97
+[I 2025-09-05 15:48:11.795 ServerApp] Starting buffering for 92b9cda6-789d-4484-ad12-b396a0ec2bd2:33922037-369d-443f-9806-6a2e3c951f7c
+[I 2025-09-05 15:48:11.795 ServerApp] Starting buffering for 6ecb5f0e-6ab4-4903-9a2d-0f21f4fe4181:294a3c3b-064c-4046-a9fc-1b2d06a2c535
+[I 2025-09-05 15:49:14.629 ServerApp] 302 GET / (@192.168.100.12) 0.38ms
+[I 2025-09-05 15:49:15.324 JupyterNotebookApp] 302 GET /tree? (@192.168.100.12) 0.47ms
+slurmstepd: error: *** JOB 2415377 ON gpu014 CANCELLED AT 2025-09-06T02:13:41 DUE TO TIME LIMIT ***

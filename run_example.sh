@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --cpus-per-task=24
-#SBATCH --job-name=vitpose
+#SBATCH --job-name=rtmpose
 #SBATCH --chdir=/home/share/schaer2/idtracking_keypoint
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
@@ -64,8 +64,11 @@ VITPOSE_SAM2_DIR="${PROJROOT}/vitpose_sam2"
 VITPOSE_CONFIG_DIR="${PROJROOT}/vitpose_config"
 
 # MMPose parameters
-POSE_CONFIG="${VITPOSE_SAM2_DIR}/mmpose/configs/body_2d_keypoint/topdown_heatmap/coco/td-hm_ViTPose-huge_8xb64-210e_coco-256x192.py"
-POSE_CHECKPOINT="${VITPOSE_CONFIG_DIR}/td-hm_ViTPose-huge_8xb64-210e_coco-256x192-e32adcd4_20230314.pth"
+# POSE_CONFIG="${VITPOSE_SAM2_DIR}/mmpose/configs/body_2d_keypoint/topdown_heatmap/coco/td-hm_ViTPose-huge_8xb64-210e_coco-256x192.py"
+POSE_CONFIG="${VITPOSE_SAM2_DIR}/mmpose/configs/body_2d_keypoint/rtmpose/coco/rtmpose-l_8xb256-420e_aic-coco-384x288.py"
+
+# POSE_CHECKPOINT="${VITPOSE_CONFIG_DIR}/td-hm_ViTPose-huge_8xb64-210e_coco-256x192-e32adcd4_20230314.pth"
+POSE_CHECKPOINT="${VITPOSE_CONFIG_DIR}/rtmpose-l_simcc-aic-coco_pt-aic-coco_420e-384x288-97d6cb0f_20230228.pth"
 DEVICE="cuda"
 SKELETON_STYLE="openpose"
 

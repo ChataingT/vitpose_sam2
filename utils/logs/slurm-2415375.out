@@ -1,0 +1,31 @@
+/home/share/schaer2/idtracking_keypoint/utils
+GPU 0: NVIDIA GeForce RTX 2080 Ti (UUID: GPU-80cd319e-7508-930c-5dbb-920457c56d08)
+[I 2025-09-05 14:11:41.771 ServerApp] Extension package jupyter_lsp took 0.9487s to import
+[I 2025-09-05 14:11:42.208 ServerApp] Extension package jupyter_server_terminals took 0.4364s to import
+[I 2025-09-05 14:11:43.705 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-09-05 14:11:43.720 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-09-05 14:11:43.735 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-09-05 14:11:43.749 ServerApp] notebook | extension was successfully linked.
+[I 2025-09-05 14:11:53.559 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-09-05 14:11:54.088 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-09-05 14:11:54.093 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-09-05 14:11:54.095 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-09-05 14:11:54.118 LabApp] JupyterLab extension loaded from /home/share/schaer2/idtracking_keypoint/myenv/lib/python3.10/site-packages/jupyterlab
+[I 2025-09-05 14:11:54.119 LabApp] JupyterLab application directory is /home/share/schaer2/idtracking_keypoint/myenv/share/jupyter/lab
+[I 2025-09-05 14:11:54.121 LabApp] Extension Manager is 'pypi'.
+[I 2025-09-05 14:11:55.116 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-09-05 14:11:55.139 ServerApp] notebook | extension was successfully loaded.
+[I 2025-09-05 14:11:55.140 ServerApp] Serving notebooks from local directory: /home/share/schaer2/idtracking_keypoint/utils
+[I 2025-09-05 14:11:55.140 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-09-05 14:11:55.140 ServerApp] http://0.0.0:8900/tree?token=91ef99d492e9208a13da27adfbf23346c9dd0b91eb86700f
+[I 2025-09-05 14:11:55.141 ServerApp]     http://127.0.0.1:8900/tree?token=91ef99d492e9208a13da27adfbf23346c9dd0b91eb86700f
+[I 2025-09-05 14:11:55.141 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-09-05 14:11:55.201 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/users/c/chataint/.local/share/jupyter/runtime/jpserver-2065731-open.html
+    Or copy and paste one of these URLs:
+        http://0.0.0:8900/tree?token=91ef99d492e9208a13da27adfbf23346c9dd0b91eb86700f
+        http://127.0.0.1:8900/tree?token=91ef99d492e9208a13da27adfbf23346c9dd0b91eb86700f
+[I 2025-09-05 14:11:55.414 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+slurmstepd: error: *** JOB 2415375 ON gpu014 CANCELLED AT 2025-09-05T14:13:04 ***
