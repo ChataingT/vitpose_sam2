@@ -125,7 +125,7 @@ class MaskToBBoxConverter:
         target_ids_set = set()
         frames = self.mask_data.get('frames', [])
         
-        for frame in frames:
+        for frame in frames.values():
             masks = frame.get('masks', {})
             if masks and 'target_ids' in masks:
                 target_ids_set.update(masks['target_ids'])
@@ -229,13 +229,12 @@ class MaskToBBoxConverter:
         """
         frames = self.mask_data.get('frames')
         
-        if frame_number < len(frames):
-            frame = frames[frame_number]
+        frame = frames.get(str(frame_number), None)
+        if frame:
             points = frame.get('points', {})
             bboxs = frame.get('bboxs', {})
-            masks = frame.get('masks', [])
+            masks =  frame.get('masks', [])
             return points, bboxs, masks
-            
         return None, None, None
     
     def process_frames(self):
