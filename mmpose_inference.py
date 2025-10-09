@@ -290,8 +290,12 @@ class MMPoseInference:
         frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
         frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
         
+        max_frame = self.bboxes_data.keys()
+        max_frame = [int(x) for x in max_frame]
+        max_frame = max(max_frame)
+
         logger.info(f"Video properties:")
-        logger.info(f"  - Total frames: {total_frames}")
+        logger.info(f"  - Total frames: {total_frames} / {max_frame+1} (using {max_frame+1} frames based on bbox data)")
         logger.info(f"  - FPS: {fps}")
         logger.info(f"  - Resolution: {frame_width}x{frame_height}")
         
@@ -310,8 +314,10 @@ class MMPoseInference:
         # Process frames
         pred_instances_list = []
         frame_idx = 0
+
+
         
-        pbar = tqdm(desc='Processing frames', total=total_frames)
+        pbar = tqdm(desc='Processing frames', total=(max_frame + 1))
         
         try:
             while cap.isOpened():
@@ -357,7 +363,9 @@ class MMPoseInference:
                 
                 frame_idx += 1
                 pbar.update(1)
-                
+                if frame_idx > max_frame:
+                    break
+
         finally:
             pbar.close()
             cap.release()
