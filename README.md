@@ -1,4 +1,4 @@
-# Topdown pose estimation with identity tracking though VitPose and SAM2.
+# Topdown pose estimation with identity tracking though RTMPose and SAM2.
 
 The notebook here is an implementation of vitpose through mmpose to get pose estimation.  
 The topdown strategy is used with bounding box given by the user.  
